@@ -26,7 +26,11 @@ const PomodoroTimer: React.FC<TimerComponentI> = ({
     <div className="pomodoro">
       <h2>You are: working</h2>
       <Timer time={mainTime} />
-      <Button text={'test'} />
+      <div className="controls">
+        <Button text={'test'} />
+        <Button text={'test'} />
+        <Button text={'test'} />
+      </div>
     </div>
   );
 };
